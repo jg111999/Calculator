@@ -33,6 +33,8 @@ namespace Calculator
             equalsButton.Click += EqualButton_Click;
 
 
+
+
         }
 
         private void EqualButton_Click(object sender, RoutedEventArgs e)
@@ -114,18 +116,22 @@ namespace Calculator
             if(sender == multiplyButton)
             {
                 selectedOperator = SelectedOperator.Mulitpication;
+                
             }
             if(sender == divideButton)
             {
                 selectedOperator = SelectedOperator.Division;
+                
             }
             if(sender == additionButton)
             {
                 selectedOperator = SelectedOperator.Addition;
+                
             }
             if(sender == minusButton)
             {
                 selectedOperator = SelectedOperator.Subtraction;
+                
             }
         }
 

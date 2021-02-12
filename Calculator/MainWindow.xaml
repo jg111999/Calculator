@@ -7,7 +7,12 @@
         mc:Ignorable="d"
         Title="Calculator" Height="525" Width="350">
 
+    
+        
+   
+
     <Grid Margin="10">
+        
         
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
@@ -35,12 +40,12 @@
         <Button x:Name="acButton" Content="AC"
                 Grid.Row="1"
                 Style="{StaticResource additionalButtonStyle}"/>
-        
+
         <Button x:Name="negativeButton" Content="+/1"
                 Grid.Row="1"
                 Grid.Column="1"
                 Style="{StaticResource additionalButtonStyle}"/>
-        
+
         <Button x:Name="percentButton" Content="%"
                 Grid.Row="1"
                 Grid.Column="2"
@@ -144,4 +149,5 @@
 
 
     </Grid>
+    
 </Window>
